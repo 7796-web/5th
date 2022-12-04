@@ -1,0 +1,72 @@
+*{ 
+    margin: 0px; padding: 0px;
+    font-size:12px;
+}
+body{ 
+	/* background-color: #2C1914; */
+	background-color: #e7e1df;
+    font-family:"宋體"; 
+}
+.abs{ 
+    position:absolute;
+   
+}
+.rel{
+    position:relative;
+   
+}
+.wrap{ 
+	min-height:1000px;
+}
+.main{ 
+	height:718px;
+}
+/* 原寬980 */
+.con980{ 
+	width:1000px; 
+    margin:0 auto;
+}
+/* 原距top-50 */
+.header{
+    width:100%; height:0px;
+} 
+.play{
+     background:url() no-repeat; 
+     width:980px; height:625px;
+     padding:22px 0 0 21px;
+}
+td{  width:187px; 
+     height:115px; 
+     font-family:"微軟雅黑"; 
+     background-color:#666; 
+     text-align:center; 
+     line-height:115px; 
+     font-size:80px; }
+.playcurr{ 
+     	background-color:#F60;
+     	color: #FFFFFF;
+        }
+.playnormal{
+	background-color:#077;
+	}
+.play_btn{ width:480px; height:115px;
+          display:block;
+          background-color:#F60;
+       
+          border:0;
+          cursor:pointer;
+          font-family:"微軟雅黑"; 
+          font-size:40px;}
+          /* 更改按鈕位置 */
+.play_btn:hover{ 
+		 color:#fff;
+		 }
+.btn_arr{ 
+		 left:270px;
+         top:371px;
+         }
+/* .playtab{
+    width:80; 
+    height:50; 
+    align-items:senter;
+} */
